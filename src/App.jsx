@@ -11,10 +11,10 @@ function App() {
 
   return (
     <div> 
-      <div className='flex '>
+      {/* <div className='flex '>
             <Sidebar sidebarToggle={sidebarToggle}/>
             <h1>Name</h1>
-      </div>
+      </div> */}
       <Routes>
         {/* Route for the Dashboard page  */}
         <Route path="/Task/" element={<Dashboard sidebarToggle={sidebarToggle} setSidebarToggle={setSidebarToggle} />} />
