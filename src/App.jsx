@@ -18,10 +18,10 @@ function App() {
         
             <Routes>
           {/* Route for the Dashboard page  */}
-          <Route path="/" element={<Dashboard sidebarToggle={sidebarToggle} setSidebarToggle={setSidebarToggle} />} />
+          <Route path="/Task/" element={<Dashboard sidebarToggle={sidebarToggle} setSidebarToggle={setSidebarToggle} />} />
           
           {/* Route for the Result page */}
-          <Route path="/result" element={<Result sidebarToggle={sidebarToggle} setSidebarToggle={setSidebarToggle}/>} />
+          <Route path="/Task/result" element={<Result sidebarToggle={sidebarToggle} setSidebarToggle={setSidebarToggle}/>} />
         </Routes>
         </BrowserRouter>
 
