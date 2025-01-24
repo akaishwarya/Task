@@ -14,6 +14,7 @@ function App() {
        <BrowserRouter >
             <div className='flex '>
                   <Sidebar sidebarToggle={sidebarToggle}/>
+                  <h1>Name</h1>
             </div>
         
             <Routes>
